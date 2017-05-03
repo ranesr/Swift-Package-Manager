@@ -3,7 +3,6 @@ language: swift
 osx_image: xcode8.3
 script:
   - swift build
-  - swift test
 notifications:
   email:
     on_success: never
